@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="sony">
+               <a href="#" id="sony">
+                   <img src="https://sonypictures.ru/wp-content/themes/sony/assets/images/sony_text_logo.svg" alt="sony">
+                </a> 
+            </div>
+            <div class="sony_pictures">
+                <ul id="sony_pictures"> 
+                    <li>
+                        <a href="#" id="sony_pictures1">
+                        <img src="https://sonypictures.ru/wp-content/themes/sony/assets/images/header_logo_mobile.svg" alt="sony_pictures">
+                         </a>
+                    </li>
+                </ul>
+                <ul id="cimema_onlain">
+                    <li>
+                        <a href="#" id="cimema">
+                            <h2 class="cinema">смотри в кино</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="onlain">
+                        <h2 class="online">смотри онлайн</h2>
+                        </a>
+                    </li>
+                </ul>
+           </div>
+            <div class="choise">
+                    <p>
+                        <select name="list1">
+                            <option>&#128269;</option>
+                            <option>Option</option>
+                            <option>Textarea</option>
+                            <option>Label</option>
+                            <option>Fieldset</option>
+                            <option>Legend</option>
+                        </select>
+                    </p>      
+            </div>
+        </div>
+    </div>
+    <div class="treiler">
+        <div class="container">
+            <div class="main_text">
+            <h1 id="main">
+                Регистрация
+            </h1>
+            </div>    
+            <div class="notmain">
+                <h6 id="notmain">
+                    Введите адрес электронной почты и пароль, который вы будете
+                    использовать при входе
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="enter">
+        <div class="container">     
+                <form action="#" method="get" id="name">
+                    <label id="name_label">
+                        <input id="second_name1" type="text" pattern="^([А-Яа-я]+)$" autocomplete="off" placeholder="Имя" name="name">
+                    </label> 
+                    <label id="name_label2">
+                        <input id="second_name2" type="text" pattern="^([А-Яа-я]+)$" autocomplete="off"  placeholder="Фамилия" name="surname">
+                    </label>
+                    <label id="time1">
+                        <input id="time2" type="date" placeholder="Введите дату вашего рождения" name="data">
+                    </label>
+                    <label class="email">
+                        <input class="email_text" type="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" autocomplete="off" title="Просим ввести адрес электроной почты в формате user@gmail.com" placeholder="email" name="email"> 
+                    </label>
+                        <input class="password_text" type="password"  placeholder="enter yours password" name="password">
+                        <div class="checkbox">
+                            <input type="checkbox" id="condition" name="remember me" value="yes"> <span id="checkbox">Запомнить меня</span> 
+                        </div>
+                        <div class="enter_text">
+                            <a class="A1" href="#">
+                                <h5>
+                                    Забыли пароль?
+                                </h5>
+                            </a>
+                        </div>
+                        <div class="enter_big">
+                            <button type="submit">
+                                Регистрация
+                            </button>
+                        </div>
+                        <label id="radio">
+                            <input class="radio" type="radio" value="Купить билет онлайн" name="option"> 
+                                Купить билет онлайн
+                        </label>
+                        <label id="radio1">
+                            <input class="radio1" type="radio" value="Доставка" name="option">  Доставка
+                        </label>
+                        <label id="radio2">
+                            <input class="radio2" type="radio" value="Сдать билет" name="option">   Сдать билет
+                        </label>
+                        <label id="file">
+                                Отправьте фото в формате png
+                            <input type="file" name="file_png" id="file1" accept=".png">
+                        </label>   
+                        <label id="file_dox">
+                                Отправьте фото в формате docx
+                            <input type="file" name="file_docx" id="file2" accept=".docx">
+                        </label>    
+                        <label id="next">
+                            <textarea id="next1" name="additional_information" >
+                                Дополнительная информация к заказу (при необходимости)
+                            </textarea>
+                        </label>           
+                        <label id="reset">
+                            <input id="reset1" type="reset" value ="Отчистить форму" name="clear">
+                        </label>
+                </form>
+        </div>
+    </div>       
+    <div class="footer">
+        <div class="container">
+            <div class="footer_text">
+                <ul id="footer">
+                    <li id="text_footer">О SONY PICTURES</li>
+                    <li id="text_footer1">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</li>
+                    <li id="text_footer2">ПРАВИЛА ПОЛЬЗОВАНИЯ САЙТОМ</li>
+                    <li id="text_footer3">ЭЛЕКТРОНИКА SONY</li>
+                </ul>
+            </div>
+            <div class="finish">
+                © 2021 Sony Pictures Digital Productions, Inc. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

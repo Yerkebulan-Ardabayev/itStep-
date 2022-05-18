@@ -1,0 +1,71 @@
+ *{
+     box-sizing:border-box;
+}
+body{
+    background: url('../img/bg.jpg') center center/cover no-repeat;
+    background-attachment:fixed;
+}
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+h1{
+    text-align: center;
+    color:blanchedalmond;
+}
+.deskr1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%; 
+    color:chartreuse;
+    text-align:justify;
+}
+
+.deskr2, .deskr3, .deskr4{
+    font-size: large;
+    color: blanchedalmond;
+}
+.menu {
+    font-size: large;
+    color:blanchedalmond;
+}
+dd{
+    margin-left: 2px;
+}
+.deskr4 {
+    padding: 10px;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align:justify;
+    background-color:hotpink;
+    border-radius: 20px;
+}
+span {
+    text-decoration: underline;
+    color: red; 
+}
+.dinner_img_1 {
+    width: 400px;
+    border-style: solid; 
+    border-color:brown;
+    border-width: 8px;
+    float: right;
+}
+.dinner_img_2 {
+    width: 400px;
+    border-style: solid; 
+    border-color:brown;
+    border-width: 8px;
+    float: left;
+}
+.dinner_img_3 {
+    display: block;
+    margin-top: 155px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-style: solid; 
+    border-color:brown;
+    border-width: 8px;
+}
+

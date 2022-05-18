@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red, .blue, .green{
+    width: 200px;
+    height: 200px;
+    
+}
+.red{
+    animation: changeBackgroundColor 2s ease-in-out infinite;
+    background-color: red;
+}
+
+.blue{
+    background-color:blue;
+    animation: eye 3s ease-in-out infinite;
+}
+.green{
+    background-color:#008000;
+    animation: animate_reduce 2s infinite;
+}
+.green:hover {
+	animation: none;
+}
+@keyframes changeBackgroundColor{
+    from{
+        background-color: black;
+    }
+    33%, 66%{
+        background-color: yellow;
+        transform: translateY(50px);
+    }
+    to{
+        background-color:blueviolet;
+        transform: translateY(100px);
+    }
+}
+
+.eye { 
+    width:  200px;
+    height: 200px;
+    background: #3ac;
+    position: relative;
+   }
+   .eye::before, .eye::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000;
+    top: 40px;
+    animation: eye 3s ease-in-out infinite;
+   }
+   .eye::before { left: 55px; }
+   .eye::after { right: 55px; }
+   
+@keyframes eye {
+    90% { transform: none; }   
+    95% { transform: scaleY(0.1);}
+}
+
+@keyframes animate_reduce{
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(0.95, 0.95, 0.95);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
+@keyframes animate_grow {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+	50% {
+		transform: scale3d(1.05, 1.05, 1.05);
+	}
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}

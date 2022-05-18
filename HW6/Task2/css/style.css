@@ -1,0 +1,61 @@
+*{
+    background-attachment:scroll;
+} 
+ body{
+    box-sizing:border-box;
+    position: relative;
+    background-color:cadetblue;
+        
+}
+.container_img {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+.sword {
+    position:fixed;
+    left: 1200px;
+    display: block;
+    width: 160px;
+    
+}
+    .img_foto_1,.img_foto_2, .img_foto_3, .img_foto_4{
+    display: block; 
+    margin: 3px 5px 5px 0;
+    border-style: solid; 
+    border-color:darkblue;
+    border-width: 4px;
+}
+.img_foto_1{
+    width: 300px;
+}
+.text_1 {
+   font-style:italic;
+   color: darkorchid;
+   font-size: 30px;
+}
+.text_2{
+    font-size: 30px;
+}
+.marker{
+    list-style-type: none;
+}
+.marker_1:before {
+    color: red;
+    content:'ƥ';
+    cursor: pointer;
+}
+
+.img_foto_2 {
+    width: 300px;
+    
+   
+}    
+.img_foto_4{
+    width: 500px;
+    float: left;
+}

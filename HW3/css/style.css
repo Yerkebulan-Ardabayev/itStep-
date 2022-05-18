@@ -1,0 +1,99 @@
+* {
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+h1 {
+    color: royalblue;
+}
+.A {
+    color: royalblue;
+}
+.B {
+    color: royalblue;
+}
+span#A {
+    font-style: italic;
+}
+.AA {
+    text-decoration: underline;
+}
+.BB {
+    color: red;
+}
+.C {
+    color: royalblue;
+    text-align:center;
+    font-size: 40px;
+}   
+.CC {
+    color: red;
+}
+.DD {
+    font-style: italic;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+.about-gifts_4 {
+    color:seagreen;
+
+}
+.D {
+    color: royalblue;
+    text-align:center;
+    font-size: 40px;
+}
+.text_1 {
+    line-height: 28px;
+}
+.text_2 {
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-gifts_text {
+    font-weight: bold;
+}
+.home {
+    font-style: italic; 
+    font-weight: bold;
+}
+.EE {
+    font-weight: bold;
+    color:blue;
+}
+.text_4 {
+    font-family: monospace;
+    font-size: 20px;
+}
+.book {
+    font-style: italic; 
+    font-weight: bold;
+}
+.colleg {
+    font-weight: bold;
+}
+.text_5 {
+    font-family: monospace;
+    font-size: 20px;
+}
+.E {
+    color: red;
+}
+.about-gifts_6 {
+    font-family: arial ;
+    font-size: 20px;
+    line-height: 30px;
+}
+.red {
+    color: red;
+    border-bottom: 5px double blue;
+}
+.QQ {
+    font-size: 15px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+}
+.green {
+    color:green;
+}

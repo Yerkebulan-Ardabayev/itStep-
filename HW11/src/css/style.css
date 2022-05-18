@@ -1,0 +1,421 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+cursor: pointer;
+}
+body{
+    background-color: #0b0d12;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    color:#ffffff;
+}
+a:hover{
+    color: rgba(255, 178, 127, 0.979);
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.logo_img{
+    display: inline-block;
+    width: 80px;
+    margin-left: 10px;
+   
+}
+.logo:hover{
+    color: #ffffff;
+}
+.menu_item{
+    display: inline-block;
+    list-style-type:none;
+    text-transform: uppercase; 
+    
+}
+.accaunt_item{
+    display: inline-block;
+}
+.accaunt_item2{
+    display: inline-block;
+    list-style-type:none;
+
+}
+.accaunt_item22{
+   padding-left: 50px;
+   margin-left: 461px;
+    
+}
+.accaunt_item23{
+    padding-right: 30px;
+    
+}
+.accaunt_v{
+    display: inline-block;
+    font-weight: 20;
+    font-size: 2px;
+    transform: rotate(90deg);
+    
+}
+.accaunt_v:before{
+    content:'\003E';
+   
+}
+
+.slaider{
+   background: url('https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/bltc9c82a641883ea6b/61aed269b079080d4d0e9c3c/D3_S25_2500x514.webp?auto=webp&format=pjpg') center center/cover no-repeat; 
+   height: 514px;
+   width: 100%;
+}
+.btn_diablo{
+    background-color: #006fb2;
+    border: 1px solid #00aeff;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color:#ccc3c3;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 35px;
+    
+   
+}
+.btn_diablo:hover{
+    color: #ffffff;
+    
+}
+.bgc{
+    background: url('https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg') center center/cover no-repeat;
+}
+#first, #second, #third, #foth, #five, #six, #seven, #eight, #nine, #ten,
+#eleven, #twelve, #thirteen{
+    display: inline-block;
+    box-shadow: 5px 5px 5px 5px rgba(194, 180, 180, 0.2);
+
+}
+#eleven, #twelve, #thirteen{
+    position: relative;
+}
+
+#eleven{
+    margin-left: 255px;
+
+}
+.game{
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    display: inline-block;
+}
+
+li.game_1{
+    display: inline-block;
+    padding-left: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    color:#ffffff;
+    
+}
+li.game_2{
+    font-size: 24px;
+    padding-left: 1067px;
+    margin-bottom: 15px;
+    list-style-type:none;
+    color:#00aeff;
+}
+li.game_2:hover{
+    color:#ffffff;
+}
+.download{
+    background: url('https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/bltc2ad99dbedeb258e/5fb7ee280100b746db953f4e/DesktopBG_Image.webp?auto=webp&format=pjpg') center center/cover no-repeat;
+    height: 400px;
+    width: 100%;
+}
+.HR{
+    background: url('https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/blt69459fd45cf9dde4/5f2dd6b88ea4aa55f2329d53/careers-5.webp?auto=webp&format=pjpg') center center/cover no-repeat;
+    height: 500px;
+    width: 100%;
+}
+.foot{
+    background-color:#072060;
+    height: 420px;
+    width: 100%;
+}
+.diablo {margin-left: 7px;
+}
+.text_season{
+    display: block;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 16px;
+}
+p{
+    text-align: center;
+    
+}
+.diablo_face, .owerwatch, .owerwatch2, 
+.warcraft, .stone, .heroes,  .diablo_woman,
+.diablo_immortal, .diablo_2, .starcraft, .starcraft2, .blizzard2{
+    display: inline-block;
+    width: 241px;
+    
+    
+}
+.warcraft2{
+    display: inline-block;
+    width: 241px;
+    height: 321px;
+}
+.fa{
+    color:#00aeff;
+    margin-bottom: 15px;
+}
+#fa-globe{
+    margin-left: 598px;
+    padding-top: 17px;
+}
+.battle{
+    display: inline-block;
+    color:#ffffff;
+    font-size: 30px;
+    margin: left -97px;
+    margin-top: 44px;
+    margin-bottom: 15px;
+
+}
+.logo_qutro, .gift, .logo_people {
+    width: 30px;
+   background-color: #105ca3;
+   margin-left: 178px;
+   margin-top: 15px;
+}
+h3{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: normal;
+}
+h3.Windows{
+    font-size: 8px;
+    
+    position:absolute;
+    left: 100px;
+
+}
+.download_text_1, .download_text_2, .download_text_3, .download_text_4, h3, h5{
+    color:#ffffff;
+}
+#Windows_img{
+    width: 20px;
+    vertical-align: middle;
+    background-color: #105ca3;
+}
+#Windows{
+    font-size: 15px;
+    margin-left: 16px;
+    text-align: center;
+    padding-top: 8px;
+}
+#battle_1, #middle_picture_1, .middle_picture{
+    display: inline-block;
+    
+}
+#middle_picture_1{
+    width: 404px;
+    margin-left: 460px;
+}
+#btn_download-{
+    width: 284px;
+    background-color: #105ca3;
+    padding: 5px;
+    margin-top: 15px;
+}
+#btn_download_{
+    
+    width: 50px;
+    margin-left: -55px;
+}
+#btn_download_1{
+    margin-left: 5px;
+    text-align: center;
+    background-color: #07345f;
+    padding: 15px 10px 17px 10px;
+    border: 1px solid #609eca;
+}
+#btn_download_1:hover{
+    
+    background-color: #609eca;
+}
+#fa-windows{
+    color:#ffffff;
+}
+
+#btn_H3{
+    font-size: 10px;
+    text-align: center;
+    color:#87c7f4;
+}
+#btn_H3:hover{
+    color:#ffffff;
+}
+#download_text_4{
+    
+    margin-top: 15px;
+    color:#ffffff;
+    
+}
+#download_text_4:hover{
+    cursor: default;
+}
+#mobile_apps{
+    color:#609eca;
+    text-decoration: 3px underline;
+    font-size: 15px;
+    
+}
+#download_text_5{
+    color:#609eca;
+    font-size: 15px;
+}
+#download_text_5:hover{
+    color:#ffffff;
+}
+#HR2{
+    font-size: 36px;
+    color: azure;
+    
+    padding-top: 145px;
+}
+#HR3{
+    font-size: 20px;
+    color: azure;
+    
+    padding-top: 12px;
+}
+#HR_img{
+   
+    background-color: #006fb2;
+    margin-top: 30px;
+    border: solid 1px #00aeff;
+    width: 223px;
+    height: 43px;
+    text-align: center;
+    padding-top: 10px;
+}
+#HR_img:hover{
+    color:#ffffff;
+}
+#globus_img{
+    width: 50px;
+}
+#globus_1{
+    
+    margin-left: 595px;
+}
+
+#russan{
+    width: 350px;
+    margin-left: 695px;
+}
+#russan1{
+    margin-top: 10px;
+    display: inline-block;
+    margin: -2px;
+
+}
+#blizzard_3{
+    display: inline-block;
+    width: 150px;
+    margin-left: 573px;
+    margin-top: 35px;
+}
+#presentation_link_0{
+    margin-left: 112px;
+    display: inline-block;
+    list-style-type:none;
+    font-size: 19px;
+    margin-top: 25px;
+    
+   
+}
+#presentation_link{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+}
+#presentation_link_1{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+}
+#presentation_link_2{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+}
+#presentation_link_3{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+}
+#presentation_link_4{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+
+}
+#presentation_link_5{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+
+}
+#download_text_6{
+    margin-left: 429px;
+    margin-top: 35px;
+    font-size: 20px;
+    
+}
+#download_text_6{
+    cursor: default;
+}
+#download_text_7{
+    color:#609eca;
+}
+
+#download_text_7:hover{
+    color:#bcd0df;
+}
+#finish_text{
+    margin-left: 510px;
+    margin-top: 35px;
+    color:#609eca;
+}
+#finish_text1{
+    margin-left: 395px;
+    margin-top: 2px;
+    color:#609eca;
+}
+#finish_link{
+    color:#679bc0;
+    padding-bottom: 3px;
+}
+#finish_link:hover{
+    color:#fefeff;
+}
+#finish_link2{
+    margin-left: 259px;
+    display: inline-block;
+    list-style-type:none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#finish_link3, #finish_link4, #finish_link5, #finish_link6, #finish_link7{
+    border-right: 2px solid rgb(97, 87, 87);
+    padding-right: 18px;
+    
+}
+

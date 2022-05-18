@@ -1,0 +1,12 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "block",
+  "editor.fontSize": 18,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 2
+}

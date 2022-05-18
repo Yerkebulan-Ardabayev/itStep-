@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	border-collapse:collapse;
+	box-sizing:border-box;
+}
+table  {
+	position: relative;
+	width: 1150px;
+	background-color: #ffffff;
+	display: block;
+	margin: 0 auto;
+}
+tbody{
+	display: block;
+	width: 1300px;
+}
+.logos_img{
+	width: 520px;
+}
+body{
+	background:url('../img/back1.jpg') center center/cover no-repeat;
+	background-attachment: fixed;
+}
+
+.menu{
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 20px;
+	background-color: rgba(109, 68, 39, 0.993);
+	color: white;
+}
+td.researche{
+	padding-left: 300px;
+	width: 550px;
+	vertical-align: top;
+	}
+.nuts1{
+	vertical-align: middle;
+	text-align: center;
+	width: 210px;
+}
+.nuts2{
+	vertical-align: middle;
+	text-align: center;
+	width: 210px;
+}
+.nuts3{
+	vertical-align: middle;
+	text-align: center;
+	width: 210px;
+}
+.nuts4{
+	vertical-align: middle;
+	text-align: center;
+	width: 210px;
+}
+.nuts5{
+	vertical-align: middle;
+	text-align: center;
+	width: 210px;
+}
+h4{
+	margin: 0 0 0 50px;
+	color: #ffffff;
+	background-color:rgba(109, 68, 39, 0.993);
+	padding: 3px;
+	
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	color:#ffffff;
+}
+table.middle{
+	width: 1150px;
+}
+h2{
+	color: chocolate;
+	margin: 20px;
+	border-left: 5px solid rgba(109, 68, 39, 0.993);
+}
+.nuts10{
+	width: 350px;
+	height: 225px;
+	padding: 20px;
+	justify-content: space-between;
+}
+h5 {
+	color: black;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+p{
+	text-align: justify;
+	width: 350px;
+	height: 100px;
+    padding: 0px 20px 20px;
+	margin-bottom: 15px;
+}
+table.about{
+	width: 1150px;
+}
+h3{
+	width: 1000px;
+	padding-left: 40px;
+	padding-right: 40px;
+	color:chocolate;
+	border-top: 4px solid rgba(109, 68, 39, 0.993);
+	margin-left: 25px;
+}
+tr .line{
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+.text{
+	line-height: 20px;
+	text-align: justify;
+	width: 1000px;
+	padding-left: 40px;
+	padding-right: 40px;
+    margin-left: 34px;
+}
+.hi{
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+}
+span{
+	font-weight: bold;
+	text-align: center;
+
+}
+span.info{
+	display: block;
+	font-weight: normal;
+	text-align: right;
+	
+}
+tfoot{
+	width: 1100px;
+
+}
+.log{
+	width: 500px;
+	margin-left: 570px;
+
+}
+.finish{
+	padding-left: 43px;
+	padding-bottom: 20px;
+}
+.img{
+	height: 513px;
+}

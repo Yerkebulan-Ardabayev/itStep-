@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    }
+
+    body{
+        background-color: #0b0d12;
+        width: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+
+    }
+    a:hover{
+        color:#ffffff;
+    }
+    .container{
+        width: 1320px;
+        margin: 0 auto;
+    }
+    .mobile_apps1{
+        margin-top: 1px;
+    }
+    
+    .HR{
+        background: url('https://images.blz-contentstack.com/v3/assets/blte0bbc3c063f45866/blt019a41fb250fc116/5f2dd6b64eebe153cbb0921b/careers-3.webp?auto=webp&format=pjpg') center center/cover no-repeat;
+        height: auto;
+        width: 100%;
+    }
+    .foot{
+        background-color:#072060;
+        height: auto;
+        width: 100%;
+    }
+
+    .fa{
+        color:#00aeff;
+        margin-bottom: 15px;
+    }
+
+    
+    .download_text_1, .download_text_2, .download_text_3, .download_text_4, h3, h5{
+        color:#ffffff;
+    }   
+    
+    .fa-angle-up:before {
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .fa-angle-down:before {
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .fa-angle-up:hover {
+        color:#ffffff;
+    }
+    .fa-angle-down:hover{
+        color:#ffffff;
+    }
+    
+    .HR2{
+        font-size: 36px;
+        color: azure;
+        
+        padding-top: 145px;
+    }
+    .HR3{
+        font-size: 20px;
+        color: azure;
+        padding-top: 20px;
+    }
+    .HR_img{
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #007bc6;
+        border: solid 1px #00aeff;
+        width: 223px;
+        height: 43px;
+        text-align: center;
+        padding-top: 10px;
+        color:#ffffff;
+    }
+    .HR_img:hover{
+        color: #ffffff;
+    }
+    .russan1{
+        color:rgba(247, 243, 243, 0.7);
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .russan1:hover{
+        color:#ffffff;
+        
+    }
+    .globus{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        align-items:baseline;
+    }
+   .fa-globe{
+       padding-right: 10px;
+   }
+
+    .globus_img{
+        width: 50px;
+    }
+    .globus_1{
+        text-align: center;
+    }
+    .blizzard3{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .blizzard_3{
+        width: 150px;
+        margin-top: 35px;
+    }
+   .presentation_linkk{
+       margin-bottom: 50px;
+   }
+    .presentation_link_0{
+        display: flex;
+        list-style-type:none;
+        justify-content: center;
+        font-size: 19px;
+        margin-top: 50px;      
+       
+    }
+    
+    .presentation_link{
+        margin-bottom: 15px;
+        color:rgba(247, 243, 243, 0.7);
+        
+    }
+    .presentation_link::after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+    }
+   
+    .presentation_link_1{
+        padding-right: 10px;
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_1::after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_2{
+        padding-right: 10px;
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_2::after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_3{
+        padding-right: 10px;
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_3::after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_4{
+        color:rgba(247, 243, 243, 0.7);
+        padding-right: 10px;
+    
+    }
+    .presentation_link_4::after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_5{
+        color:rgba(247, 243, 243, 0.7);
+        padding-right: 10px;
+    }
+    .presentation_link_5::after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+    }
+    .presentation_link_6{
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .download_text_5{
+        color:rgba(247, 243, 243, 0.7);
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+   
+    .download_text_6{
+        color:rgba(247, 243, 243, 0.7);
+        display: flex;
+    }
+    .download_text_7{
+        color:#00aeff;
+        font-size: 19px;
+    }
+
+    .finish_link2{
+        display: flex;
+    }
+    .finish_link{
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .download_text_7:hover{
+        color:#bcd0df;
+    }
+    .mobile_apps1{
+        margin-bottom: 3px;
+        
+    }
+    .finish{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .finish_text{
+       color:rgba(247, 243, 243, 0.7);
+    }
+    .finish_text1{
+        
+        color:rgba(247, 243, 243, 0.7);
+    }
+    
+    .finish_link{
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-bottom: 80px;
+       
+    }
+    .finish_link1{
+        padding-bottom: 50px;
+    }
+    .finish_link:hover{
+        color:#fefeff;
+    }
+    .finish_link2{
+        justify-content: center;
+        list-style-type:none;
+        font-size: 15px;
+        
+        
+    }
+    .link_A{
+        color:rgba(247, 243, 243, 0.7);
+    }
+    .finish_link3:after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);        
+         
+     }
+
+    .finish_link4:after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);       
+         
+     } 
+    .finish_link5:after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);     
+         
+     }
+     .finish_link6:after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);
+     } 
+     
+     .finish_link7:after{
+        content:"";
+        margin: 0px 10px;
+        display: inline-block;
+        height: 10px;
+        width: 1px;
+        background-color:rgba(247, 243, 243, 0.7);           
+    }
+    
+    @media (max-width:1024px) {
+        .container{
+            width: 100%;
+        }
+        .HR {
+            height: auto;
+            text-align: center;
+        }
+        .HR2, .HR3{ 
+            text-align:center;            
+            
+        }
+        .HR_img{
+            margin-bottom: 50px;
+        }
+        .presentation_link_0 {
+            font-size: 16px;
+        }
+        
+    }
+    @media (max-width:768px){
+        .presentation_link_0 {
+            font-size: 11px;
+        }
+        .russan1 {
+            font-size: 19px;
+        }
+        .presentation_link::after{
+            margin: 0px 6px;
+        }        
+        .presentation_link_1::after{
+            margin: 0px 6px;
+        }
+        .presentation_link_2::after{
+            margin: 0px 6px;
+        }
+        .presentation_link_3::after{
+            margin: 0px 6px;
+        }
+        .presentation_link_4::after{
+            margin: 0px 6px;
+        }
+        .presentation_link_5::after{
+            margin: 0px 6px;
+        }
+    }
+    @media (max-width:768px){
+        
+        .HR2{ 
+           font-size: 25px;           
+        }
+        .blizzard_3{
+            width: 135px;
+        }
+    }
+    @media (max-width:426px) {
+        .blizzard_3 {
+            width: 123px;
+        }
+        .presentation{
+            display: block;
+        }
+        .presentation_linkk{
+            display: block;
+        }
+        .presentation_link::after {
+            content: none;
+        }
+        .presentation_link{
+            margin-bottom: 10px;
+        }
+    .presentation_link_1::after{
+        content:none;
+    }
+    .presentation_link_1{
+        margin-bottom: 10px;
+    }
+    .presentation_link_2{
+        margin-bottom: 10px;
+    }
+    .presentation_link_3{
+        margin-bottom: 10px;
+    }
+    .presentation_link_4{
+        margin-bottom: 10px;
+    }
+    .presentation_link_5{
+        margin-bottom: 10px;
+    }
+    .presentation_link_2::after{
+        content:none;
+    }
+    .presentation_link_3::after{
+        content:none;
+    }
+    .presentation_link_4::after{
+        content:none;
+    }
+    .presentation_link_5::after{
+        content:none;
+    }
+    .presentation_link_0{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .download_text_5, .download_text_6, .finish{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .finish_link2{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding-bottom: 50px;
+    }
+    .finish_link3::after {
+            content:none;
+        }
+        .finish_link4::after {
+            content:none;
+        }
+        .finish_link5::after {
+            content:none;
+        }
+        .finish_link6::after {
+            content:none;
+        }
+        .finish_link7::after {
+            content:none;
+        }
+        .link_A{
+            margin-bottom: 5px;
+        }
+    }
+    @media (max-width:321px) {
+        .HR2 {
+            font-size: 21px;
+        }
+        .HR3{
+            font-size: 15px;
+        }
+        .download_text_6{
+            font-size: 15px;
+        }
+        .download_text_7{
+            font-size: 15px;
+        }
+    }
+    

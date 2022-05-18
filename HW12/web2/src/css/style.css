@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+h2, li{
+    display: inline-block;
+
+}
+ul, .sony_pictures, #cimema_onlain{
+    display: inline-block;
+    margin-top: 18px;
+}
+#sony{
+    display: inline-block;
+    width: 180px;
+    margin-left: 800px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+#sony_pictures1{
+    display: inline-block;
+    width: 150px;
+    color: #ffffff;
+}
+#cimema{
+    margin-left: 160px;
+    color:#ffffff;
+}
+#onlain{
+    margin-left: 80px;
+    color:#ffffff;
+}
+.search{
+    display: inline-block;
+}
+#search1{
+    border: 1px solid red;
+    width: 160px;
+    margin-left: 45px;
+    text-align: center;
+    padding: 5px;
+}
+
+select{
+    color:#b98080;
+    padding: 4px;
+    margin-left: 50px;
+    border: 1px solid red;
+    width: 160px;
+    margin-left: 59px;
+    padding: 5px;
+}
+select:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+.main_text{
+    display: inline-block;
+    margin-top: 20px;
+}
+#main{
+    display: inline-block;
+    color:#ffffff;
+    font-size: 40px;
+    margin-left: 452px;
+}
+
+
+#footer{
+    display: inline-block;
+    margin-top: 70px;
+    color:#6b6b6b;
+    
+    
+}
+#text_footer, #text_footer1, #text_footer2, #text_footer3{
+    border-right: 1px;
+    padding-left: 35px;
+    font-size: 5px;
+
+}
+#text_footer{
+    margin-left: 60px;
+}
+.finish{
+    display: inline-block;
+    margin-left: 314px;
+    margin-top: 10px;
+    color:#6b6b6b;
+    font-size: 2px;
+}
+.subscribtion{
+    margin-left: 353px;
+    margin-top: 25px;
+}
+.email_text{
+    background-color:#ffffff;
+    text-align: center;
+    padding: 10px 50px;
+}
+.password_text{
+    background-color:#ffffff;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px 50px;
+}
+.checkbox{
+    margin-top: 20px;
+    display: inline-block;
+}
+.enter_text{
+    display: inline-block;
+    color:#ffffff;
+}
+#checkbox{
+    color: #ffffff;
+}
+.A1{
+    display: inline-block;
+    margin-left: 38px;
+    text-decoration: none;
+    color:#ffffff;
+}
+button{
+    color:#ffffff;
+    background-color:red;
+    padding: 10px 118px;
+    margin-top: 20px;
+
+}

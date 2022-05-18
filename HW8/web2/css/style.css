@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url('../img/pngtree-cartoon-travel-zoo-forest-minimalistic-bnner-background-image_223156.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header nav{
+   display: flex;
+   justify-content: space-between;
+}
+.menu_link:hover {
+    color: brown;
+}
+    
+.container{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+
+}
+.container1{
+    width: 1200px;
+    margin: auto;
+}
+.menu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style-type: none;
+    height: 50px;
+    font-size: large;
+}
+img {
+    padding: 5px;
+}
+.fauna_item{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+.fauna_item:hover {
+    border: 5px solid black;
+   
+}
+p{
+    display: block;
+    margin: 0 auto;
+    padding: 25px 0 25px 0;
+    width: 500px;
+    text-align: justify;
+    font-size: 18px;
+}
+span:first-child{
+    color:yellowgreen;
+}
+p:first-line{
+    color:violet;
+    font-weight: 40px;
+    font-style: italic;
+}
+p:first-letter{
+    font-size: 55px;
+    color:tomato;
+}
+.rightpic {
+    float: right; 
+    margin: 0 0 5px 5px; 
+}
+.text{
+    font-size: 25px;
+    padding-left: 30px;
+    border-left: 10px solid blue;
+}

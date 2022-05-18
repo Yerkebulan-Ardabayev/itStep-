@@ -1,0 +1,1428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.row_icons{
+    display: inline-block;
+    width: 100%;
+    
+}
+.social-icons{
+    display: inline-block;
+    width: 100%;
+    
+}
+.icons{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 875px;
+    margin-top: 36px;
+}
+.facebook, .twitter, .google, .dribbble, .linkedin{
+    display: inline-block;
+    height: 23px;
+    margin-left: 23px;
+    color: cadetblue;
+}
+.main_logo{
+    display: inline-block;
+    width: 30%;
+}
+.main_menu{
+    display: inline-block;
+    vertical-align: unset;
+    height: 50px;
+    width: 69%;
+}
+.searche, .search_text{
+    display: inline-block;
+    position: relative;
+    left: 6px;
+}
+
+.search-form{
+    padding-left: 10px;
+    height: 25px;
+    font-size: 15px;
+    width: 150px;
+    color: #818285;
+    border: 1px solid #00aeef;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.fa-search{ 
+    font-size: 15px;
+    color:#777;
+    margin-left: 26px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #222;
+}
+.topmenu li {
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+}
+.topmenu{
+    margin-left: 57px;
+}
+.topmenu  li  a {
+    position: relative;
+    padding: 10px 15px;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 3px;
+    color:#777;
+}
+.topmenu li  a:before {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    top: 100%;
+    width: 10px;
+    height: 10px;
+    background: white;
+    transform: translate(-50%, 20px);
+    transition: .3s;
+}
+.topmenu li:hover a:before {
+    transform: translate(-50%, 0);
+    opacity: 1;
+}
+.submenu {
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    top: 100%;
+    width: 150px;
+    padding: 15px 0 15px;
+    margin-top: 5px;
+    background: white;
+    box-shadow: 0 0 70px #1955ffd1;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    transform: translate(-50%, 20px);
+    transition: .3s;
+}
+.topmenu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+.submenu a {
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    transition: .3s linear;
+}
+.submenu li:hover {
+    background: #a88888;
+}
+.mountain{
+    background: url('https://demo.themeum.com/html/triangle/1.1/images/home/slider-bg.png');
+    background-size:  contain;
+    background-repeat: repeat-x;
+    animation: moveMount 2s linear infinite;
+    background-position:bottom;
+        
+}
+@keyframes moveMount{
+    0%  {background-position: 0%, 0%;}
+    100% {background-position: 100%, 0%;}
+}
+ .nerds, .text-wtf{
+    display: inline-block;
+    width: 102%;
+    vertical-align: top;
+}
+.slaider-text{
+    display: inline-block;
+    width: 49.5%;
+   
+}
+.slaider-img{
+    display: inline-block;
+    position: relative;
+    width: 49.5%;
+    
+}
+.slaider-mountain{
+    width: 100%;
+    animation: flyMount 3s linear 1;
+}
+.slaider-house{
+    position: absolute;
+    top: 159px;
+    left: 13%;
+    animation: flyHome 5s linear 1;
+}
+.slaider-sun{
+    position: absolute;
+    top: -53px;
+    left: 9%;
+    animation: flySun 5s linear 1;
+}
+.slaider-birds1{
+    position: absolute;
+    animation: FlyBirds1 5s linear 1;
+    top: 76px;
+    left: 2%;
+    
+}
+.slaider-birds2{
+    position: absolute;
+    top: 139px;
+    left: 76%;    
+    animation: FlyBirds2 5s linear 1;
+}
+.nerds{
+    margin-bottom: 35px;
+    color:#777;
+}
+.text-wtf{
+    color:#777;
+    margin-bottom: 35px;
+}
+.btn-common{
+    color:#777;
+    border: 0.5px solid blue;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+.eye { 
+    width:  200px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    animation: eyes 5s linear 1;
+}
+.half-circle {
+    position: absolute;
+    height: 92px;
+    width: 44px;
+    border-radius: 134px 0 0 139px;
+    border-top: 12px solid #ad165dba;
+    border-left: 5px solid #c70063ba;
+    border-bottom: 12px solid #ffef138a;
+    transform: translate(100px) rotate(-90deg);
+    left: 31%;
+    top: 79px;
+    animation: eyes 6s linear 1;
+  }
+    
+.eye::before, .eye::after {
+    content: '';
+    position: absolute;
+    width: 29px;
+    height: 27px;
+    border-radius: 50%;
+    background: #ff1a09ba;
+    top: 40px;
+    animation: eye 3s ease-in-out infinite;
+}
+.eye::before { left: 55px; }
+.eye::after { right: 55px; }
+       
+@keyframes eye {
+    90% { transform: none; }   
+    95% { transform: scaleY(0.1);}
+}
+@keyframes flyMount {
+    0%  {transform: translate(-700px, -700px) rotate3d(3, 5.0, 3.0, 10deg);}
+    30% {transform: translate(-600px, -600px) rotate3d(3, 5.0, 3.0, 10deg);}
+    50% {transform: translate(-400px, -400px) rotate3d(3, 5.0, 3.0, 10deg);}
+    75% {transform: translate(-200px, -200px) rotate3d(3, 5.0, 3.0, 10deg);}
+    100% {transform: translate(0, 0);}
+}
+@keyframes flyHome {
+    0%  {transform: translate(-1000px, 0) scale(0.1);}
+    30% {transform: translate(-700px, 0) scale(0.3);}
+    50% {transform: translate(-500px, 0) scale(0.5);}
+    75% {transform: translate(-200px, 0) scale(0.7);}
+    85% {transform: translate(-80px, 0) scale(0.9);}
+    95% {transform: translate(-20px, 0) scale(1);}
+    100% {transform: translate(0, 0) scale(1);}
+}
+@keyframes flySun {
+    0%  {transform: translate(1000px, -1000px) scale(1.2);}
+    30% {transform: translate(700px, -700px) scale(1.6);}
+    50% {transform: translate(500px, -500px) scale(1.8);}
+    75% {transform: translate(-200px, 200px) scale(2);}
+    85% {transform: translate(-80px, 80px) scale(2.5);}
+    95% {transform: translate(-20px, 20px)scale(3);}
+    100% {transform: translate(0, 0) scale(1);}
+}
+@keyframes FlyBirds1 {
+    0% {transform: translate(50px, -500px) scale(0.2);}
+    30% {transform: translate(40px, -400px) scale(0.3);}
+    50% {transform: translate(30px, -300px) scale(0.5);}
+    75% {transform: translate(20px, -200px) scale(0.7);}
+    85% {transform: translate(80px, -80px) scale(0.9);}
+    95% {transform: translate(20px, -20px)scale(2);}
+    100% {transform: translate(0, 0) scale(1);}
+   }
+@keyframes FlyBirds2 {
+    0% {transform: translate(500px, -50px) scale(0.1);}
+    30% {transform: translate(400px, -40px) scale(0.2);}
+    50% {transform: translate(300px, -30px) scale(0.3);}
+    75% {transform: translate(200px, -20px) scale(0.4);}
+    85% {transform: translate(80px, -10px) scale(0.6);}
+    95% {transform: translate(20px, -20px)scale(0.8);}
+    100% {transform: translate(0, 0) scale(1);}
+   }
+@keyframes eyes {
+    0% {opacity: 0;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.tree_dishes{
+    display: inline-block;
+    width: 33%;
+}
+.animated{
+    padding-left: 123px;
+    
+}
+.dishes_text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: dishes 3s linear 1;
+    color:#686868;
+    
+}
+.dishes_text1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: dishes 3s linear 1;
+    color:#686868;
+    
+}
+@keyframes dishes {
+    0% {opacity: 0;}
+    80% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.motorbike{
+    background-image:url('https://demo.themeum.com/html/triangle/1.1/images/home/tour-bg.png'); 
+    background-repeat: repeat-x;
+    height: 159px;
+    background-position: center;
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_bike, .btn, .img_btn_bike{
+    display: flex;
+    justify-content:center;
+}
+.btn{
+    padding: 10px 30px;
+    align-self:center;
+    border: 1px solid #2ba6b7;
+    border-radius:4px;
+}
+.btn_bike{
+    color:#01707f;
+    font-size: 18px;
+}
+.bike_text{
+    display: flex;
+    align-self:center;
+    color:#686868;
+}
+.text_bike{
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 30px;
+    color:#686868;
+}
+.text_bike1{
+    font-size: 20px;
+}
+.row_img, .img1, .img2, .img3{
+    width: 100%;
+}
+.frog_img, .frog_text{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.frog_text{
+    padding-top: 74px;
+    padding-left: 25px;
+    color:#686868;
+}
+.text_img_a{
+    margin-bottom: 14px;
+    color:#686868;
+}
+.frog_img{
+    padding-top: 45px;
+    width: 369px;
+}
+.foto_frog{
+    width: 100%;
+}
+.text_karate, .karate_img{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.text_karate{
+    padding-top: 63px;
+    color:#686868;
+    
+}
+.roboto_img, .text_roboto{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.text_img_a1, .text_img_b1{
+    text-align: end;
+}
+.text_img_a1{
+    padding-bottom: 24px;
+}
+.img2{
+    margin-top: 80px;
+}
+.roboto_img{
+    width: 450px;
+}
+.foto_roboto{
+    width: 100%;
+}
+.text_roboto{
+    padding-top: 63px;
+    color: #686868;
+}
+.text_img_c1{
+    padding-bottom: 24px;
+}
+.img_clients, .text1_clients, .text2_clients{
+    display: inline-block;
+    text-align: center;
+}
+.text1_clients, .text2_clients{
+    animation: dishes 3s linear 1;
+}
+.hearing, .playgro, .beauty, .mother, .headon, .avatar{
+    text-align: center;
+}
+
+.rocket_submit{
+    width: 100%;
+    background-image: url(https://demo.themeum.com/html/triangle/1.1/images/home/footer.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: contain;
+}
+.card-text{
+    font-size: 13px;   
+}
+.wrapper_big{
+    display: inline-block;
+}
+blockquote:before{
+    right: 30px;
+    bottom: 14px;
+    content: '"';
+    font-size: 13px;
+    color: #ea2c00;
+    line-height: none;
+}
+blockquote:after{
+    right: 30px;
+    bottom: 14px;
+    content: '"';
+    font-size: 13px;
+    color: #ea2c00;
+}
+.text-muted1{
+    color: #ea2c00;
+    font-size: 13px;
+}
+.contact_main{
+    width: 57%;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+
+    margin-bottom: 60px;
+
+}
+.contacts{
+    margin-bottom: 22px;
+}
+address{
+    font-size: 13px;
+}
+h4{
+    color:#686868;
+}
+.form-control{
+    border: 1px solid grey;
+    margin-top: 17px;
+    border-radius: 5px;
+    width: 307px;
+    height: 37px;
+}
+.form-control1{
+    width: 307px;
+    height: 37px;
+}
+.form-control-submit{
+    border: 0.5px solid grey;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 307px;
+    height: 37px;
+    background-color: #4fcccd;;
+}
+.footer-heading1{
+    margin-bottom: 26px;
+}
+.form-control1{
+    border: 0.5px solid grey;
+    margin-top: 17px;
+    border-radius: 5px;
+    width: 307px;
+    height: 100px;
+}
+.copyright-text{
+    margin-top: 70px;
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+@media (max-width:1024px){
+    .container{
+        width: 100%;
+    }
+    .main_menu {
+        vertical-align: baseline;
+    }
+    .mountain{
+        background-size: 100% auto;
+    }
+    .inline {
+        width: 100%;
+    }
+    .icons{
+        margin-left: 678px;
+    }
+    .topmenu{
+        margin-left: 0;
+    }
+    .topmenu li a{
+        padding: 4px 7px;    
+    }
+    .submenu{
+        width: 95px;
+        padding: 3px 0 2px;
+    }
+    .nerds{
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+    .text-wtf{
+        margin-bottom: 24px;
+    }
+    .btn-common{
+        padding: 4px 22px;
+    }
+    .eye{
+        left: 32%;
+    }
+    .dishes{
+        margin-top: 40px;
+    }
+    .slaider-house {
+        top: 162px;
+        width: 55%;
+    }
+    .half-circle{
+        left: 27%;
+    }
+    .tree_dishes{
+        width: 32%;
+        vertical-align: top;
+    }
+    .dishes_text{
+        font-size: 26px;
+    }
+    .first, .second,.third{
+        height: 85px;
+    }
+    .animated{
+        padding-left: 103px;
+    }
+    .text_bike{
+        font-size: 25px;
+    }
+    .text_bike1{
+        font-size: 16px;
+    }
+    .btn{
+        padding: 7px 17px;
+    }
+    .btn_bike{
+        font-size: 15px;
+    }
+    .frog_img{
+        width: 356px;
+    }
+    .text_img_a{
+        font-size: 22px;
+    }
+    .text_img_a1{
+        font-size: 22px;
+        padding-bottom: 0;
+    }
+    .text_img_c1{
+        font-size: 22px;
+        padding-bottom: 0;
+    }
+    .text_img_b{
+        font-size: 14px;
+    }
+    .text_img_b1{
+        font-size: 14px;
+    }
+    .text_img_d1{
+        font-size: 14px;
+    } 
+    .contact_main{
+        width: 65%;
+        margin: 0 auto;
+    }    
+    .copyright-text {
+        margin-top: 54px;
+    }
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    .icons {
+        margin-left: 450px;
+    }
+    .main_menu{
+        vertical-align:inherit;
+        width: 82%;
+    }
+    .main_logo{
+        width: 17%;
+    }
+    .topmenu{
+        margin-left: 75px;
+    }
+    .main_logo_img{
+        width: 114px;
+    }
+    ol, ul {
+        padding-left: 0;
+    }
+    .topmenu li a{
+        font-size: 14px;
+    }
+    .submenu li a{
+        font-size: 12px;
+    }
+    .fa-search {
+        margin-left: 0px; 
+    }
+    .search-form{
+        width: 91px;
+    }
+    .mountain{
+        background-size:50% auto;
+    }
+    .slaider-text{
+        width: 256px;
+        top: 114px;
+    }
+    .nerds{
+        font-size: 17px;
+    }
+    .text-wtf{
+        font-size: 12px;
+    }
+    
+    .btn-common{
+        font-size: 12px;
+    }
+    .slaider-mountain{
+        width: 100%;
+        left: 331px;
+        top: 83px;
+    }
+    .eye {
+        left: 27%;
+        width: 173px;
+        top: 63px;
+    }
+    .eye:before{
+        left: 67px;
+        width: 22px;
+        height: 22px;
+        top: -26px;
+    }
+    .eye:after{
+        width: 22px;
+        height: 22px;
+        top: -26px;
+    }
+    .half-circle{
+        left: 20%;
+        height: 78px;
+        width: 36px;
+        border-top: 9px solid #680734ba;
+        border-left: 4px solid #c70063ba;
+        border-bottom: 9px solid #fbff038a;
+        top: 55px;
+    }
+    .slaider-house{
+        top: 133px;
+        width: 175px;
+        left: 20%;
+    }
+    .slaider-sun{
+        left: -2%;
+        top: -27px;
+        width: 16%;
+    }
+    .slaider-birds1{
+        top: 98px;
+        width: 76px;
+        left: -1%;
+    }
+    .slaider-birds2{
+        left: 90%;
+        width: 46px;
+    }
+    .tree_dishes{
+        width: 31%;
+    }
+    .animated {
+        padding-left: 84px;
+    }
+    .dishes_text {
+        font-size: 17px;
+    }
+    .text_bike {
+        font-size: 18px;
+    }
+    .text_bike1 {
+        font-size: 14px;
+    }
+    .motorbike{
+        height: 122px;
+    }
+    .bike{
+        width: 79%;
+    }
+    .btn_bike {
+        font-size: 11px;
+    }
+    .frog_img {
+        width: 318px;
+        padding-top: 0;
+    }
+    .frog_text {
+        padding-top: 16px;
+    }
+    .text_img_a {
+        font-size: 18px;}
+    
+    .text_img_b {
+        font-size: 9px;
+    }
+    .img2 {
+        margin-top:0;
+    }
+    .text_karate {
+        padding-top: 22px;
+    }
+    .text_img_a1 {
+        font-size: 18px;
+    }
+    .text_img_b1 {
+        font-size: 9px;
+    }
+    .foto_karate{
+       width: 339px;
+    }
+    .roboto_img {
+        width: 361px;
+    }
+    .text_roboto {
+        padding-top: 0px;
+    }
+    .text_img_c1 {
+        font-size: 18px;
+    }
+    .text_img_d1 {
+        font-size: 9px;
+    }
+    .img_wheel{
+        width: 183px;
+    }
+    .clients{
+        font-size: 25px;
+    }    
+    .submit{
+        width: 245px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .form-control {
+        width: 244px;
+        height: 26px;
+    }
+    .contact_main{
+        width: 100%;
+    }
+    .form-control1 {
+        width: 248px;
+        height: 80px;
+    }
+    .form-control-submit {
+        width: 254px;
+        height: 37px;
+    }
+    .contacts {
+        margin-bottom: 5px;
+    }
+    .rocket_submit {
+        background-size: cover;
+    }
+    blockquote {
+        margin: 0 0 0rem;
+    }
+    .copyright-text {
+        margin-top: 174px;
+    }
+}
+@media (max-width:426px){
+    .container{
+        width: 100%;
+    }
+    .icons{
+        margin-left: 106px;
+    }
+    .fa{
+        font-size: smaller;
+    }
+    .main_logo_img {
+        width: 124px;
+        margin-left: 142px;
+    }
+    .topmenu {
+        margin-left: 32px;
+    }
+    .main_menu {
+        width: 100%;
+    }
+    .searche,.search_text {
+        left: 59px;
+    }
+    .submenu {
+        width: 108px;
+    }
+    .slaider-text {
+        width: 100%;
+        text-align: center;
+    }
+    .mountain{
+        margin-bottom: 200px;
+    }
+    .text-wtf{
+        width: 98%;
+    }
+    .slaider-mountain{
+        width: 100%;
+        position: absolute;
+        top: 4px;
+        left: 48%;
+    }
+    .eye {
+        left: 55%;
+        top: 57px;
+        width: 180px;
+    }
+    .eye:before {
+        left: 71px;
+        width: 17px;
+        height: 17px;
+    }
+    .eye::after {
+        right: 62px;
+        width: 17px;
+        height: 17px;
+    }
+    .half-circle {
+        left: 46%;
+        height: 60px;
+        width: 25px;
+        top: 33px;
+        border-top: 4px solid #680734ba;
+        border-left: 2px solid #c70063ba;
+        border-bottom: 4px solid #fbff038a;
+    }
+    .slaider-house {
+        width: 107px;
+        top: 82px;
+        left: 57%;
+    }
+    .slaider-sun {
+        left:43%;
+        
+    }
+    .slaider-birds1 {
+        width: 58px;
+        left: 20%;
+        top: 33px;
+    }
+    .slaider-birds2 {
+        left: 138%;
+        top: 50px;
+        width: 46px;
+    }
+    .dishes{
+        height: 100%;
+    }
+    .dishes .tree_dishes:nth-child(1n+1) {
+        width: 100%;
+        text-align: center;
+    }
+    .dishes .tree_dishes:nth-child(3) {
+        width: 100%;
+        text-align: center;
+    }
+    .first, .second, .third{
+        width: auto;
+        height: 70px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .dishes_text {
+        font-size:15px;
+        text-align: center;
+    }
+    .dishes_text1{
+        font-size: 19px;
+        display: inline-block;
+        text-align: center;
+        padding: 0 20px;    
+    }
+    .res{
+        text-align: center;
+    }
+    .res1 {
+        text-align: center;
+    }
+    .res2{
+        text-align: center;
+    }
+    .flex-container {
+        display: inline-block;
+    }
+    .text_bike {
+        font-size: 17px;
+    }
+    .text_bike1 {
+        font-size: 15px;
+    }
+    .bike_block{
+        margin-left: 54px;
+    }
+    .btn_bike {
+        font-size: 15px;
+    }
+    .btn {
+        padding: 0px 36px;
+    }
+    
+    .frog_img, .karate_img, .roboto_img{
+        display: block;
+        width: 100%;
+    }
+    
+    .img2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .frog_text{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .text_karate{
+        padding: 0;
+        width: 100%;
+        
+    }
+    .text_img_a1{
+        text-align: center;
+    }
+    .text_img_b1{
+        text-align: center;
+    }
+    .foto_karate {
+        width: 100%;
+        margin-bottom: -51px;
+    }
+    .text_roboto{
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .img_wheel {
+        width: 141px;
+    }
+    .clients {
+        font-size: 19px;
+    }
+    .text_clients{
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 17px;
+       text-align: center;
+    }
+    .flex{
+        display:inline-block;
+        width: 100%;
+    }
+    .rounded-start{
+        width: 42px;
+        margin-left: 25px;
+    }
+    .contact{
+        margin-bottom: 0;
+    }
+    .contact_main{
+        width: 100%;
+    }
+    .contacts {
+        margin-bottom: 0px;
+    }
+    address{
+        text-align: center;
+        font-size: 15px;
+    }
+    .wrapper_big{
+        margin: 0 auto;
+    }
+    .submit {
+       
+        margin: 0 auto;
+    }
+    .copyright-text {
+        margin-top: 218px;
+    }
+}
+@media (max-width:376px){
+    .topmenu {
+        margin-left: 0px;        
+        text-align: center;
+    }
+
+    .fa-search {
+        margin-left: 7px;
+    }
+    .searche,.search_text{
+        display: block;
+        left: 0;
+    }
+    .main_menu{
+        display: block;
+        margin-bottom: 57px;
+    }
+    .search-form {
+        width: 120px;
+    }
+    .btn-common {
+        padding: 9px 56px;
+    }
+    .nerds {
+        font-size: 21px;
+    }
+    .mountain {
+        margin-bottom: 39px;
+    }
+    .tree_dishes {
+        width: 180px;
+    }
+    #align {
+        margin-top: 23px;
+    }
+    .first {
+        width: auto;
+        height: 83px;
+    }
+    .second {
+        width: auto;
+        height: 127px;
+    }
+    .third {
+        width: auto;
+        height: 127px;
+    }        
+    .dishes_text {
+        font-size: 17px;
+        margin-top: 12px;
+    }
+    .dishes_text1 {
+        font-size: 16px;
+    }
+    .slaider-img {
+        width: 100%;
+        margin-top: 155px;
+    }
+    .text-wtf {
+        font-size: 16px;
+    }
+    .slaider-house {
+        width: 107px;
+        top: 169px;
+        left: 38%;
+    }
+    .slaider-mountain {
+        position: static;
+        width: 100%;
+    }
+    .slaider-birds2 {
+        left: 72%;
+        top: 153px;
+        width: 91px;
+    }
+    .slaider-sun {
+        left: 44%;
+    }
+    .eye {
+        left: 28%;
+    }
+    .half-circle {
+        left: 23%;
+    }
+    .text_bike1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .bike_block {
+        margin-left: 30px;
+    }
+    .flex{
+        display: block;
+    }
+    .wrapper_big, .wrapper1, .wrapper2, .contact_main{
+        width: 100%;
+    }
+    h4{
+        margin-left: 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    address{
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer-heading1{
+        margin-bottom: 0px;
+    }
+    .submit{
+        width:85%;
+    }
+
+    .img_btn_bike{
+        display: none;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    .form-control{
+        font-size: 15px;
+        width: 95%;
+    }
+    .insaid{
+        width: 100%;
+    }
+    .form-control1{
+        font-size: 15px;
+        width: 95%;
+    }
+    .form-control-submit {
+        font-size: 15px;
+        width: 95%;
+    }
+    .copyright-text {
+        margin-top: 148px;
+    }
+}
+@media (max-width:320px){
+    .icons {
+        margin-left: 55px;
+        margin-top: 13px;
+    }
+    .header{
+        width: 100%;
+    }
+    .main_logo_img {
+        width: 115px;
+        margin-left: 103px;
+    }
+    .topmenu{
+        text-align: center;
+    }
+    .topmenu li a{
+        padding: 0;
+        line-height: 0;
+        letter-spacing: 0px;
+        font-size: 15px;
+    }
+    .submenu {
+        width: 60px;
+        padding: 0;
+        box-shadow: 0 0 10px #1955ffd1;
+    }
+    .searche, .search_text {
+        left: 0px;
+    }
+    .search-form {
+        height: 28px;
+        font-size: 9px;
+        width: 110px;
+        margin-top: 17px;
+        border-radius: 4px;
+    }
+    .mountain{
+        width: 100%;
+        background: url('https://demo.themeum.com/html/triangle/1.1/images/home/slider-bg.png') center center/cover;
+    }
+    .nerds{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: -2px;
+    }
+    .text-wtf{
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .slaider-img{
+        width: 100%;
+    }
+
+    .eye {
+        left: 24%;
+        top: 50px; 
+        animation: eyes 1s linear 1;
+    }
+
+    .half-circle {
+        left: 18%;
+        top: 32px;
+        animation: eyes 2s linear 1;
+    }
+    
+    .slaider-mountain{
+        animation: flyMount 1s linear 1;
+    
+    }
+    .slaider-house {
+        animation: flyHome 1s linear 1;
+        top: 138px;
+    }
+    .slaider-sun {
+        left: 20%;
+        animation: flySun 1s linear 1;
+    }
+    .slaider-birds1 {
+        width: 61px;
+        left: 20%;
+        animation: FlyBirds1 1s linear 1;
+    }
+    .slaider-birds2 {
+        top: 50px;
+        left: 70%;
+        width: 46px;
+        animation: FlyBirds2 1s linear 1;
+    }
+    .dishes{
+        width: 100%;
+    }
+    .tree_dishes {
+        margin-top: 18px;
+        display:inline-block;
+        width: 47%;
+        vertical-align: middle;
+    }
+    .align{
+        margin-top: 0px;
+    }
+    .animated {
+        margin-left: 0px;
+    }
+    .res {
+        text-align: center;
+        font-size: 17px;
+    }
+    .res1 {
+        text-align: center;
+        font-size: 17px;
+    }
+    .res2 {
+       text-align: center;
+        font-size: 17px;
+    }
+    .dishes_text1{
+        margin-left: 0;
+        font-size: 15px;
+    }
+    .motorbike{
+        width: 100%;
+    }
+    .text_bike {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .text_bike1 {
+        font-size: 15px;
+    }
+    .img_btn_bike{
+        display: none;
+    }
+    .bike_block{
+        margin-left: 21px;
+        text-align: center;
+    }
+    .flex_bike {
+        margin-left: 15px;
+    }
+    .bike_text{
+        margin-bottom: 20px;
+    }
+    .btn {
+        padding: 0px 11px;
+    }
+    .bike {
+        width: 63%;
+    }
+    .Experienced_Enthusiastic{
+        width: 100%;
+    }
+    .Happy_Clients{
+        width: 100%;
+    }
+    .wrapper1, .wrapper2{
+        width: 100%;
+    }
+    h4{
+        text-align: center;
+    }
+    .submit{
+        width: 100%;
+    }
+    .rocket_submit{
+        width: 100%;
+    }
+    .form-control {
+        width: 105px;
+        margin-left: 6px;
+    }
+    .form-control1 {
+        width: 105px;
+        margin-left: 7px;
+    }
+    .form-control-submit {
+        width: 107px;
+        margin-left: 8px;
+    }
+    .col-sm-10 {
+        width: 99.333333%;
+    }
+    .card-body{
+        padding-left: 70px;
+    }
+    .card-text {
+        font-size: 15px;
+    }
+    address{
+        text-align: center;
+        font-size: 15px;
+    }
+    .insaid{
+        width: 100%;
+    }
+    .form-control {
+        margin-left: 102px;
+    }
+    .form-control1 {
+        margin-left: 102px;
+    }
+    .form-control-submit {
+        margin-left: 102px;
+    }
+    .copyright-text {
+        width: 100%;
+        margin-top: 0px; 
+        color: black;
+    }
+    .copyright{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    @keyframes flyMount {
+        0%  {transform: translate(-200px, -200px) rotate3d(3, 5.0, 3.0, 10deg);}
+        100% {transform: translate(0, 0);}
+    }
+    @keyframes flyHome {
+        0%  {transform: translate(-100px, 0) scale(0.5);}
+        100% {transform: translate(0, 0) scale(1);}
+    }
+    @keyframes flySun {
+        0%  {transform: translate(-100px, 100px)scale(2);}
+        100% {transform: translate(0, 0) scale(1);}
+    }
+    @keyframes FlyBirds1 {
+        0% {transform: translate(50px, -50px) scale(0.2);}
+        100% {transform: translate(0, 0) scale(1);}
+       }
+    @keyframes FlyBirds2 {
+        0% {transform: translate(20px, -20px)scale(0.8);}
+        100% {transform: translate(0, 0) scale(1);}
+       }
+}

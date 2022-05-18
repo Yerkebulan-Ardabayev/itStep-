@@ -1,0 +1,72 @@
+h2 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+.item_33:hover:before {
+    color: red;
+    content:'\2602';
+    cursor: pointer;
+}
+.item_44:hover:before {
+    color:red;
+    content: "ƥ ";
+    cursor: pointer;
+}
+.item77:hover {
+    color:tomato;
+    cursor: pointer; 
+ }
+ .item_77:hover {
+    color: orange;
+    cursor: pointer; 
+ }
+ .item_777:hover {
+    color: blue;
+    cursor: pointer;
+ }
+ .item_88:hover {
+    color: darkorchid;
+    cursor: pointer; 
+ }
+ .second:hover {
+    color: darkorchid;
+    cursor: pointer; 
+ }
+ .item_99:hover {
+    color: brown;
+    cursor: pointer; 
+ }
+ .item_text_1 {
+     color: red;
+     margin: 40px;
+ }
+ .item_text_2 {
+     color:royalblue;
+     margin: 40px 20px 30px 40px;
+ } 
+ .item_text_3 {
+    color:saddlebrown;
+    margin: 40px 0px 30px;
+} 
+.item_text_4 {
+    color:seagreen;
+    margin: 50px 400px;
+} 
+.item_text_a {
+    color:saddlebrown;
+    padding: 20px;
+}
+.item_text_b {
+    color: blue;
+    padding: 20px 30px 70px 90px;
+}
+.item_text_c {
+    color: red;
+    padding: 20px 0px 30px;
+}
+.item_text_d {
+    color:lawngreen;
+    padding: 80px 90px;
+}

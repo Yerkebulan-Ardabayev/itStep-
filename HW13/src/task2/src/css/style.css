@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foto_img1, .foto_img2, .foto_img3, .foto_img4{
+    width: 600px;
+    margin-left: 50px;
+    transition: all 5s ease;
+    
+}
+.foto1, .foto2{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+}
+.foto3, .foto4{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+}
+.foto5, .foto6{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+}
+.foto7, .foto8{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+}
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8{
+    width: 200px;
+    height: 200px;
+}
+div div:nth-child(1)  {
+    filter: grayscale(.90);
+}
+
+div div:nth-child(1):hover{
+    filter: none;
+}
+
+div div:nth-child(2):hover {
+    transform: scale(150%, 150%);
+    transition: all 5s ease;
+}
+  
